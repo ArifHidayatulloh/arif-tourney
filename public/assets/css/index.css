@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Offside&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* #HEADER */
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1e1f26;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    font-family: 'Black Ops One', cursive;
+    font-size: 20px;
+    font-style: italic;
+    color: #d0e1f9;
+}
+
+.nav-logo img {
+    margin-right: 20px;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu ul li {
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+.nav-menu ul a {
+    text-decoration: none;
+    font-family: 'Offside', cursive;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-menu ul p {
+    text-decoration: none;
+    font-family: 'Offside', cursive;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-menu ul:hover a {
+    color: #283655;
+    transition: 0.2s;
+}
+
+.nav-menu ul:hover p {
+    color: #283655;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.nav-menu ul:hover a:hover {
+    color: #d0e1f9;
+    box-shadow: 0 2px 0 0 currentColor;
+    transition: 0.4 ease-in-out;
+}
+
+.nav-menu ul:hover p:hover {
+    color: #d0e1f9;
+    box-shadow: 0 2px 0 0 currentColor;
+    transition: 0.4 ease-in-out;
+}
+
+/* END HEADER */
+
+/* BANNER */
+
+.banner {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #283655;
+    
+}
+
+.banner section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.banner-img img {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 400px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.banner-title{
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+.banner-title span {
+    font-family: 'Offside';
+    color: white;
+    font-size: 20px;
+}
+
+.banner-title h3 {
+    color: #d0e1f9;
+    font-family: 'Black Ops One', cursive;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.banner-title p {
+    font-family: 'Offside';
+    color: white;
+    font-size: 17px;
+}
+/* ENDD BANNER */
+
+/* #GAMES */
+.games{
+    padding-top: 30px;
+    background-color: #d0e1f9;
+    background-blend-mode: color-dodge;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+.game-title{
+    height: 100px;
+    text-align: center;
+}
+
+.game-title h3{
+    font-family: 'Black Ops One', cursive;
+    color: #283655;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.game-title p{
+    font-family: 'Offside';
+    font-size: 15px;
+}
+.line{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    height: 7px;
+    border-radius: 5px;
+}
+
+.games-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.games section img{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+}
+.games-container section{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 100px;
+    row-gap: 30px;
+}
+
+.game-list p{
+    font-family: 'Offside';
+    text-align: center;
+    font-weight: bold;
+}
+/* END GAME */
+
+/* TOURNAMENT PAGE */
+.tournament-page-container{
+    padding-top: 100px;
+    background-color: #283655;
+    height: 100vh;
+}
+
+.game-name{
+    display: flex;
+    justify-content: center;
+    font-family: 'Offside',cursive;
+    font-size: 25px;
+    color: #1e1f26;
+}
+
+.game-name section{
+    width: 90%;
+}
+
+.game-name p{
+    margin-left: 30px;
+    color: #d0e1f9;
+}
+
+.underline{
+    border-radius: 2px;
+    margin-top: 5px;
+    background-color: #d0e1f9;
+    width: 100%;
+    height: 5px;
+}
+
+/* TOURNAMENT LIST */
+.tournament{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.tournament-menu{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.tournament-list{
+    display: grid;
+    column-gap: 70px;
+    grid-template-columns: auto auto auto;
+}
+.list-tournament{
+    width: 300px;
+    border-radius: 7px;
+    background-color: #d0e1f9;
+    box-shadow: 0px 0px 10px 5px #1e1f26;
+    padding-bottom: 15px;
+}
+
+.tournament-name{
+    width: 65%;
+    border-radius: 2px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    color: #d0e1f9;
+    background-color: #1e1f26;
+    font-size: 18px;
+}
+
+.tournament-img{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.tournament-img img{
+    width: 200px;
+    height: 200px;
+}
+
+.tournament-desc{
+    font-family: sans-serif;
+    color: #1e1f26;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-container{
+    width: 80%;
+}
+
+.tournament-detail{
+    padding-left: 15px;
+    margin-top: 17px;
+}
+.tournament-detail a{
+    text-decoration: none;
+    font-family: 'offside',cursive;
+    background-color: #283655;
+    color: #d0e1f9;
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+}
+
+.tournament-null{
+    font-size: 20px;
+    display: flex;
+    font-family: 'black ops one';
+    letter-spacing: 1px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 75px;
+    background-color: #d0e1f9;
+    box-shadow: 5px 5px 5px 5px #1e1f26;
+}
+/* END TOURNAMENT PAGE */

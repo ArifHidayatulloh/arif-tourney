@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Offside&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #283655;
+}
+
+header{
+    background-color: #1e1f26;
+    color: #d0e1f9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Black Ops One', cursive;
+}
+
+/* #CARD */
+.menu{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.menu section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 50px;
+}
+.card{
+    background-color: #d0e1f9;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.card-header{
+    margin-top: 20px;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Black Ops One',cursive;
+    background-color: #283655;
+}
+
+.card-header h4{
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.card-body{
+    margin-top: 25px;
+}
+.card-body a{
+    color: #1e1f26;
+    text-decoration: none;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: 'Offside',cursive;
+    border: 2px black solid;
+    padding: 7px 10px 7px 10px;
+}
+
+.card-body a:hover{
+    background-color: #1e1f26;
+    color: #d0e1f9;
+    transition: 0.2s;
+}
+

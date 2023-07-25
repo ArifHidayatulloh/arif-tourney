@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Offside&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #283655;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-title{
+    margin-top: 20px;
+    background-color: #1e1f26;
+    border-radius: 2px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d0e1f9;
+    font-family: 'Black Ops One',cursive;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+
+form .container{
+    display: flex;
+    justify-content: center;
+    column-gap: 17px;
+}
+
+form{
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #d0e1f9;
+    margin-top: 5px;
+}
+
+textarea{
+    white-space: pre-wrap;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+label{
+    font-family: 'Offside',cursive;
+    font-size: 16px;
+}
+
+select{
+    border-radius: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: -15px;
+    background-color: white;
+    border: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+input{
+    border-radius: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: -15px;
+    background-color: white;
+    border: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+.review-image img{
+    width: 70px;
+    height: 70px;
+}
+.form-submit{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+button{
+    height: 30px;
+    width: 40%;
+    border-radius: 3px;
+    color: #d0e1f9;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.save{
+    background-color: green;
+}
+
+.reset{
+    background-color: red;
+}
