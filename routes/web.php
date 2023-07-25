@@ -22,3 +22,6 @@ Route::resource('/index', IndexController::class);
 Route::resource('/admin', AdminController::class);
 Route::resource('/game', GameController::class);
 Route::resource('/tournament',TournamentController::class);
+Route::get('/rehan',function(){
+    return 'rehan';
+});
