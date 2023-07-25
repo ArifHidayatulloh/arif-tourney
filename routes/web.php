@@ -26,3 +26,6 @@ Route::resource('/tournament',TournamentController::class);
 Route::get('/rehan', function(){
     return view ('rehan');
 });
+Route::get('/gita', function(){
+    return view ('gita');
+});
